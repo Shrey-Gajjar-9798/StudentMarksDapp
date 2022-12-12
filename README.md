@@ -5,7 +5,7 @@ and hardhat network is used as the backend blockchain network to store the data.
 Smart contract is created in solidity which contains all the necessary conditions and functionality to store the data to the network.
 
 
-#Hardhat Blockchain
+# Hardhat Blockchain
 
 Hardhat blockchain provides us the test accounts to test the application and run the node on the system.
 Metamask wallet is used to import the account and to perform the transaction on the blockchain network.
