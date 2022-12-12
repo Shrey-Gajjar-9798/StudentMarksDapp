@@ -1,0 +1,209 @@
+html, body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+    h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #1c87c9;
+    }
+    p {
+    margin: 0 0 5px;
+    }
+    .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c87c9;
+    }
+    form {
+    padding: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+    .fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+    }
+    .fa-envelope {
+    transform: rotate(-20deg);
+    }
+    .fa-at , .fa-mail-bulk{
+    transform: rotate(10deg);
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #2371a0;
+    }    
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part{
+        margin-left: 100px;
+    }
+    .formheading{
+        margin-top: 28px;
+    }
+    .left-part img{
+        height: 110px;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    .fa-envelope {
+    margin-top: 0;
+    margin-left: 20%;
+    }
+    .fa-at {
+    margin-top: -10%;
+    margin-left: 65%;
+    }
+    .fa-mail-bulk {
+    margin-top: 2%;
+    margin-left: 28%;
+    }
+    }
+    .addstudent{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .rightpart{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .addstudentmarks{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .assignMarksform{
+        width: 500px;
+    }
+    .getresult{
+        width: 600px;
+    }
+    .getresult form{
+        margin-bottom: 0px;
+        width: auto;
+    }
+    .getstudentsinfo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 100px 0 100px 0;
+
+    }
+    .gettotalstudent{
+       width: 300px;
+    }
+    .totalbtn{
+        border-radius: 50px;
+        background-color: orangered;
+    }
+    .infotable {
+        border-collapse: collapse;
+        margin: 25px 0px;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        width: 700px;
+        /* display: flex;
+        justify-content: center; */
+        height: auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .infotable thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+    .infotable th,
+    .infotable td {
+        padding: 12px 60px;
+        color: black;
+    }
+    .infotable tbody tr {
+        border: 1px solid #dddddd;
+    }
+    
+    .infotable tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    
+    .infotable tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+    
+    .Lasttable{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .infotable{
+        margin-bottom: 150px;
+    }
+    .getresulttable{
+        border-collapse: collapse;
+        margin: 25px 0px;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        width: 100%;
+        /* display: flex;
+        justify-content: center; */
+        height: auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .getresulttable thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+    }
+    .getresulttable th,
+    .getresulttable td {
+        padding: 12px 35px;
+        color: black;
+    }
+    .getresulttable tbody tr {
+        border: 1px solid #dddddd;
+    }
+    
+    .getresulttable tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    
+    .getresulttable tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+    }
+

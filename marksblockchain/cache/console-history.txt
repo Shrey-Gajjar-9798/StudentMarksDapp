@@ -1,0 +1,24 @@
+await box.getDetails("19DCS034","CS101");
+box.getDetails("19DCS034","CS101");
+const box = await smartcontract.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const smartcontract = await ethers.getContractFactory("MMS");
+await box.getDetails("19DCS047","CS100");
+shrey.studentid
+const shrey = await box.getDetails("19DCS034","CS100");
+await box.getDetails("19DCS034","CS100");
+await (box.getDetails("19DCS034","CS100").studentid);
+await box.getDetails("19DCS034","CS100").studentid;
+await box.getDetails("19DCS034","CS100");
+await box.faculty_address;
+await box.faculty_address();
+await box.facultyaddress();
+await box.facultyaddress;
+await box.getDetails("19DCS034","CS100");
+await box.getDetails("19DCS034");
+await box.getdetails("19DCS034");
+await box.studentadded(0);
+(await box.totalstudents()).toNumber();
+await box.totalstudents()
+await box.totalstudents
+const box = await smartcontract.attach("0x5FC8d32690cc91D4c39d9d3abcBD16989F875707");
+const smartcontract = await ethers.getContractFactory("MMS");
